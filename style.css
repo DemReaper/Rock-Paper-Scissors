@@ -1,0 +1,31 @@
+.main-container {
+  width: 800px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 100px auto 0;
+}
+
+.monitor {
+  width: 90%;
+  height: 40%;
+  border: 2px solid black;
+  margin: 30px auto;
+}
+
+.play-area {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.player-choice {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: 5px 0;
+}

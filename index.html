@@ -3,8 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Rock Paper Sciccors</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="main-container">
+      <!-- main display monitor -->
+      <div class="monitor">
+
+      </div>
+
+      <!-- player interaction and score viewing -->
+      <div class="play-area">
+
+        <!-- scoring information -->
+        <div class="score">
+          <p>Player: <span class="player-score"></span></p>
+          <p>Computer: <span class="computer-score"></span></p>
+          <p>Draw: <span class="draw-score"></span></p>
+        </div>
+
+        <!-- game update messages -->
+        <div class="message-display">
+          <h3>Best of 5! Click buttons to the right to start</h3>
+        </div>
+
+        <!-- player interaction -->
+        <div class="player-choice">
+          <button class="btn" id="rock">Rock</button>
+          <button class="btn" id="paper">Paper</button>
+          <button class="btn" id="scissors">Scissors</button>
+        </div>
+
+      </div> <!-- end play-area -->
+    </div><!-- end  main-container -->
     <script src="app.js" charset="utf-8"></script>
   </body>
 </html>

@@ -18,6 +18,8 @@ function computerPlay() {
 function playRound(playerSelection, computerSelection) {
   // transform playerSelection to lowercase
   let psLowerCase = playerSelection.toLowerCase();
+
+  // stage outcom conditions
   const draw = "Round draw, No winner!";
   const playerLost = `You lose ${computerSelection} beats ${psLowerCase}!`;
   const playerWin = `You won ${psLowerCase} beats ${computerSelection}!`;
@@ -54,6 +56,7 @@ function playRound(playerSelection, computerSelection) {
   drawScore++;
   return draw;
 }
+
 
 function game(rounds) {
   for (let i = 0; i < rounds; i++) {
