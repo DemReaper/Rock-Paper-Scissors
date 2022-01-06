@@ -1,10 +1,15 @@
 body {
   background-color: #22577E;
+  color: #F6F2D4;
+}
+
+h1 {
+  text-align: center;
 }
 
 .main-container {
   width: 800px;
-  height: 500px;
+  height:600px;
   border: 2px solid black;
   border-radius: 10px;
   margin: 100px auto 0;
@@ -19,14 +24,21 @@ body {
   display: flex;
 }
 
-.player-side,
-.computer-side {
+.monitor-label {
+  display: flex;
+  justify-content: space-around;
+  color: #F6F2D4;
+  font-size: 1.5rem;
+}
+
+.monitor-left,
+.monitor-right {
   width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #22577E;
 }
 
@@ -53,7 +65,16 @@ body {
   cursor: pointer;
 }
 
-.message {
+.message,
+.score p {
   color: #F6F2D4;
   font-size: 1.3rem;
+}
+
+.winColor {
+  color: #95CD41;
+}
+
+.lostColor {
+  color: #EC255A;
 }
